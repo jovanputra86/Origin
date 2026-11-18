@@ -1,0 +1,322 @@
+
+/* HEADER TOKO */
+.header-toko {
+    background-color: #ffffff;
+    border-bottom: 3px solid #f2a900;
+}
+
+.logo-toko {
+    width: 85px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.nama-toko {
+    color: #1769aa;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.slogan-toko {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* NAVBAR */
+.navbar-prima {
+    background-color: #123456;
+}
+
+.navbar-prima .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.navbar-prima .nav-link:hover,
+.navbar-prima .nav-link.active {
+    color: #ffbd45;
+}
+
+/* CAROUSEL BANNER */
+#carouselPrima {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+#carouselPrima .carousel-inner {
+    width: 100%;
+}
+
+#carouselPrima .carousel-item {
+    width: 100%;
+}
+
+#carouselPrima .gambar-banner {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(70%);
+}
+
+/* TEKS CAROUSEL */
+#carouselPrima .carousel-caption {
+    bottom: 100px;
+}
+
+#carouselPrima .carousel-caption h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#carouselPrima .carousel-caption p {
+    font-size: 18px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    #carouselPrima .gambar-banner {
+        height: 250px;
+    }
+
+    #carouselPrima .carousel-caption {
+        bottom: 30px;
+    }
+
+    #carouselPrima .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    #carouselPrima .carousel-caption p {
+        font-size: 12px;
+    }
+
+}
+
+
+/* PRODUK UNGGULAN */
+.produk-unggulan {
+    background-color: #f5f7fa;
+}
+
+.judul-section {
+    color: #1769aa;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.deskripsi-section {
+    color: #666666;
+}
+
+/* CARD PRODUK */
+.card-produk {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card-produk:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
+
+.gambar-produk {
+    width: 100%;
+    height: 210px;
+    object-fit: contain;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.card-produk .card-title {
+    color: #123456;
+    font-weight: 700;
+}
+
+.card-produk .card-text {
+    color: #666666;
+    font-size: 14px;
+    min-height: 65px;
+}
+
+/* TOMBOL PESAN */
+.btn-prima {
+    background-color: #1769aa;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 9px 18px;
+    font-weight: 600;
+}
+
+.btn-prima:hover {
+    background-color: #123456;
+    color: #ffffff;
+}
+
+
+/* FOOTER TOKO PRIMA 1990 */
+
+.footer-prima {
+    background-color: #123456;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.footer-title {
+    color: #ffbd45;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.footer-heading {
+    color: #ffbd45;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.footer-prima p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-menu a:hover {
+    color: #ffbd45;
+    padding-left: 5px;
+}
+
+.footer-prima i {
+    color: #ffbd45;
+    margin-right: 7px;
+}
+
+.footer-bottom {
+    background-color: #0b243d;
+    padding: 18px 0;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: #dddddd;
+}
+
+/* HALAMAN PRODUK */
+
+.judul-produk {
+    background-color: #f5f7fa;
+}
+
+.judul-produk h2 {
+    color: #1769aa;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.judul-produk p {
+    color: #666666;
+    margin-top: 12px;
+}
+
+.katalog-produk {
+    background-color: #f5f7fa;
+}
+
+/* PENYESUAIAN CARD PRODUK */
+
+.katalog-produk .card-produk {
+    height: 100%;
+}
+
+.katalog-produk .gambar-produk {
+    height: 220px;
+    object-fit: contain;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+/* HALAMAN KATEGORI */
+
+.judul-kategori {
+    background-color: #f5f7fa;
+}
+
+.judul-kategori h2 {
+    color: #1769aa;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.judul-kategori p {
+    color: #666666;
+    margin-top: 12px;
+}
+
+.daftar-kategori {
+    background-color: #f5f7fa;
+}
+
+/* CARD KATEGORI */
+
+.card-kategori {
+    border: none;
+    border-radius: 12px;
+    padding-top: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card-kategori:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
+
+.ikon-kategori {
+    width: 85px;
+    height: 85px;
+    background-color: #e8f2fc;
+    color: #1769aa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 38px;
+}
+
+.card-kategori .card-title {
+    color: #123456;
+    font-weight: 700;
+    min-height: 48px;
+}
+
+.card-kategori .card-text {
+    color: #666666;
+    font-size: 14px;
+    min-height: 105px;
+    line-height: 1.7;
+}
