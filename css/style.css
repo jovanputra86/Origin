@@ -320,3 +320,76 @@
     min-height: 105px;
     line-height: 1.7;
 }
+
+
+/* Tampilan Kartu Promo */
+.promo-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.promo-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.promo-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.promo-card .card-text {
+    flex-grow: 1;
+}
+
+.promo-card .btn {
+    margin-top: auto;
+}
+
+/* ===== HALAMAN TENTANG KAMI ===== */
+
+.profil-toko {
+    background: #f5f8fc;
+    padding: 45px 0;
+}
+
+.judul-tentang {
+    color: #164a85;
+    font-weight: 700;
+}
+
+.deskripsi-toko {
+    line-height: 1.9;
+    color: #555;
+    text-align: justify;
+}
+
+.gambar-toko {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+.kartu-visi-misi {
+    padding: 25px;
+    border-radius: 15px;
+    background: white;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-top: 4px solid #f39c12;
+    transition: 0.3s;
+}
+
+.kartu-visi-misi:hover {
+    transform: translateY(-5px);
+}
